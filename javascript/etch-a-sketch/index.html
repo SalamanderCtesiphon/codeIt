@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>ETCH-A-SKETCH</title>
+</head>
+<body>
+    <div class="page">
+        <div class="header">
+            <h1 class="title">ETCH-A-SKETCH</h1>
+        </div>
+        <div class="main">
+            <div class="sub-header">
+                <label id="title" for="grid-size">Please enter a number between 2 to 100.</label>
+                <br>
+                <input type="text"id="size" placeholder="Enter a number">
+                <button id="submit">Submit</button>
+                <div class="warning"></div>
+            </div>
+            <div class="container">
+                <div class="canvas"></div>
+            </div>
+            <h3>Select a Color</h3>
+            <div class="sub-footer">
+                <div class="btn">
+                <input type="radio" id="black" name="color" value="black">
+                <br>
+                <label for="Black">Black</label>
+                </div>
+                <div class="btn">
+                <input type="radio" id="shade" name="color" value="shade">
+                <br>
+                <label for="shade">Shade</label>
+                </div>
+                <div class="btn">
+                <input type="radio" id="random" name="color" value="random">
+                <br>
+                <label for="random">Random</label>
+                </div>
+                <div class="btn">
+                <input type="radio" id="erase" name="color" value="erase">
+                <br>
+                <label for="erase">Erase</label>
+                </div>
+            </div>
+            <div class="clear-btn">
+                <button class="clear">Clear</button>
+            </div>
+        </div>
+        <div class="footer">
+            SeamusQuixote &copy; 2021
+        </div>
+    </div>
+    
+</body>
+</html>
